@@ -260,7 +260,7 @@ function GetIDFromSource(Type, ID) --(Thanks To WolfKnight [forum.FiveM.net])
 end
 
 -- Version Checking down here, better don't touch this
-local CurrentVersion = '1.0.0'
+local CurrentVersion = '1.0.1'
 local GithubResourceName = 'Discord-FiveMBot'
 
 PerformHttpRequest('https://raw.githubusercontent.com/grimdesigns-fivem/Discord-FiveMBot/master/' .. GithubResourceName .. '/VERSION', function(Error, NewestVersion, Header)
@@ -299,12 +299,11 @@ PerformHttpRequest('https://raw.githubusercontent.com/grimdesigns-fivem/Discord-
 		print('## Status: ' .. Status)
 		print('## Online: ' .. Online)
 		print('##')
-		if Status ~= Online then
+		if Status ~= UpToDate then
 			print('## Bot Is Online!')
 			print('##############')
-		elseif Status ~= Outdated then
-			print('## Down For Maintenance!')
-			print('## And/Or Outdated/UnSupported!')
+		else 
+			print('## Bot Is Outdated')
 			print('## Check the GitHub')
 			print('## For Status & Updates')
 			print('##############')
