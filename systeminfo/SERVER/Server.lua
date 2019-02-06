@@ -267,7 +267,7 @@ PerformHttpRequest('https://raw.githubusercontent.com/GrimDesignsFiveM/FiveMToDi
 	PerformHttpRequest('https://raw.githubusercontent.com/GrimDesignsFiveM/FiveMToDiscord/master/' .. GithubResourceName .. '/CHANGES', function(Error, Changes, Header)
 		print('\n')
 		print('##############')
-		print('## ' .. GetCurrentResourceName())
+		print('## FiveMToDiscord Bot By GrimDesigns ')
 		print('##')
 		print('## Current Version: ' .. CurrentVersion)
 		print('## Newest Version: ' .. NewestVersion)
