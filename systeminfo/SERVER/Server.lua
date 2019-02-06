@@ -260,11 +260,11 @@ function GetIDFromSource(Type, ID) --(Thanks To WolfKnight [forum.FiveM.net])
 end
 
 -- Version Checking down here, better don't touch this
-local CurrentVersion = '1.5.1'
-local GithubResourceName = 'DiscordBot'
+local CurrentVersion = '1.0.1'
+local GithubResourceName = 'Discord-FiveMBot'
 
-PerformHttpRequest('https://raw.githubusercontent.com/Flatracer/FiveM_Resources/master/' .. GithubResourceName .. '/VERSION', function(Error, NewestVersion, Header)
-	PerformHttpRequest('https://raw.githubusercontent.com/Flatracer/FiveM_Resources/master/' .. GithubResourceName .. '/CHANGES', function(Error, Changes, Header)
+PerformHttpRequest('https://raw.githubusercontent.com/grimdesigns-fivem/Discord-FiveMBot/master/' .. GithubResourceName .. '/VERSION', function(Error, NewestVersion, Header)
+	PerformHttpRequest('https://raw.githubusercontent.com/grimdesigns-fivem/Discord-FiveMBot/master/' .. GithubResourceName .. '/CHANGES', function(Error, Changes, Header)
 		print('\n')
 		print('##############')
 		print('## ' .. GetCurrentResourceName())
@@ -281,6 +281,33 @@ PerformHttpRequest('https://raw.githubusercontent.com/Flatracer/FiveM_Resources/
 		else
 			print('## Up to date!')
 			print('##############')
+		end
+		print('\n')
+	end)
+end)
+
+-- Bot status down here, better don't touch this
+local Status = 'OUTDATED'
+local GithubResourceName = 'Discord-FiveMBot'		
+
+PerformHttpRequest('https://raw.githubusercontent.com/grimdesigns-fivem/Discord-FiveMBot/master/' .. GithubResourceName .. '/ONLINE', function(Error, Online, Header)
+	PerformHttpRequest('https://raw.githubusercontent.com/grimdesigns-fivem/Discord-FiveMBot/master/' .. GithubResourceName .. '/MAINTENANCE', function(Error, Maintenance, Header)
+		print('\n')
+		print('##############')
+		print('## ' .. GetCurrentResourceName())
+		print('##')
+		print('## Status: ' .. Status)
+		print('## Online: ' .. Online)
+		print('##')
+		if Status ~= UpToDate then
+			print('## Bot Is Online!')
+			print('##############')
+		else 
+			print('## Bot Is Outdated')
+			print('## Check the GitHub')
+			print('## For Status & Updates')
+			print('##############')
+			print('MAINTENANCE: ' .. Maintenance)
 		end
 		print('\n')
 	end)
