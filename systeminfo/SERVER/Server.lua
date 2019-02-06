@@ -286,30 +286,4 @@ PerformHttpRequest('https://raw.githubusercontent.com/grimdesigns-fivem/Discord-
 	end)
 end)
 
--- Bot status down here, better don't touch this
-local Status = 'ONLINE'
-local GithubResourceName = 'Discord-FiveMBot'		
-
-PerformHttpRequest('https://raw.githubusercontent.com/grimdesigns-fivem/Discord-FiveMBot/master/' .. GithubResourceName .. '/ONLINE', function(Error, Online, Header)
-	PerformHttpRequest('https://raw.githubusercontent.com/grimdesigns-fivem/Discord-FiveMBot/master/' .. GithubResourceName .. '/MAINTENANCE', function(Error, Maintenance, Header)
-		print('\n')
-		print('##############')
-		print('## ' .. GetCurrentResourceName())
-		print('##')
-		print('## Status: ' .. Status)
-		print('## Online: ' .. Online)
-		print('##')
-		if Status ~= Online then
-			print('## Down For Maintenance!')
-			print('## Check the GitHub')
-			print('## For Status & Updates')
-			print('##############')
-			print('MAINTENANCE: ' .. Maintenance)
-		else
-			print('## Bot Is Online!')
-			print('##############')
-		end
-		print('\n')
-	end)
-end)
 
