@@ -261,10 +261,10 @@ end
 
 -- Version Checking down here, better don't touch this
 local CurrentVersion = '1.0.1'
-local GithubResourceName = 'Discord-FiveMBot'
+local GithubResourceName = 'FiveMToDiscord'
 
-PerformHttpRequest('https://raw.githubusercontent.com/grimdesigns-fivem/Discord-FiveMBot/master/' .. GithubResourceName .. '/VERSION', function(Error, NewestVersion, Header)
-	PerformHttpRequest('https://raw.githubusercontent.com/grimdesigns-fivem/Discord-FiveMBot/master/' .. GithubResourceName .. '/CHANGES', function(Error, Changes, Header)
+PerformHttpRequest('https://raw.githubusercontent.com/GrimDesignsFiveM/FiveMToDiscord/master/' .. GithubResourceName .. '/VERSION', function(Error, NewestVersion, Header)
+	PerformHttpRequest('https://raw.githubusercontent.com/GrimDesignsFiveM/FiveMToDiscord/master/' .. GithubResourceName .. '/CHANGES', function(Error, Changes, Header)
 		print('\n')
 		print('##############')
 		print('## ' .. GetCurrentResourceName())
@@ -288,10 +288,10 @@ end)
 
 -- Bot status down here, better don't touch this
 local Status = 'OUTDATED'
-local GithubResourceName = 'Discord-FiveMBot'		
+local GithubResourceName = 'FiveMToDiscord'		
 
-PerformHttpRequest('https://raw.githubusercontent.com/grimdesigns-fivem/Discord-FiveMBot/master/' .. GithubResourceName .. '/ONLINE', function(Error, Online, Header)
-	PerformHttpRequest('https://raw.githubusercontent.com/grimdesigns-fivem/Discord-FiveMBot/master/' .. GithubResourceName .. '/MAINTENANCE', function(Error, Maintenance, Header)
+PerformHttpRequest('https://raw.githubusercontent.com/GrimDesignsFiveM/FiveMToDiscord/master/' .. GithubResourceName .. '/ONLINE', function(Error, Online, Header)
+	PerformHttpRequest('https://raw.githubusercontent.com/GrimDesignsFiveM/FiveMToDiscord/master/' .. GithubResourceName .. '/MAINTENANCE', function(Error, Maintenance, Header)
 		print('\n')
 		print('##############')
 		print('## ' .. GetCurrentResourceName())
