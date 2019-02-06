@@ -288,10 +288,10 @@ end)
 
 -- Bot status down here, better don't touch this
 local Status = 'OUTDATED'
-local GithubResourceName = 'Discord-FiveMBot'		
+local GithubResourceName = 'FiveMToDiscord'		
 
-PerformHttpRequest('https://raw.githubusercontent.com/grimdesigns-fivem/Discord-FiveMBot/master/' .. GithubResourceName .. '/ONLINE', function(Error, Online, Header)
-	PerformHttpRequest('https://raw.githubusercontent.com/grimdesigns-fivem/Discord-FiveMBot/master/' .. GithubResourceName .. '/MAINTENANCE', function(Error, Maintenance, Header)
+PerformHttpRequest('https://raw.githubusercontent.com/GrimDesignsFiveM/FiveMToDiscord/master/' .. GithubResourceName .. '/ONLINE', function(Error, Online, Header)
+	PerformHttpRequest('https://raw.githubusercontent.com/GrimDesignsFiveM/FiveMToDiscord/master/' .. GithubResourceName .. '/MAINTENANCE', function(Error, Maintenance, Header)
 		print('\n')
 		print('##############')
 		print('## ' .. GetCurrentResourceName())
