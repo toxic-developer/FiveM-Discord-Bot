@@ -261,10 +261,10 @@ end
 
 -- Version Checking down here, better don't touch this
 local CurrentVersion = '1.0.0'
-local GithubResourceName = 'Discord-FiveMBot'
+local GithubResourceName = 'FiveMToDicord'
 
-PerformHttpRequest('https://raw.githubusercontent.com/grimdesigns-fivem/Discord-FiveMBot/master/' .. GithubResourceName .. '/VERSION', function(Error, NewestVersion, Header)
-	PerformHttpRequest('https://raw.githubusercontent.com/grimdesigns-fivem/Discord-FiveMBot/master/' .. GithubResourceName .. '/CHANGES', function(Error, Changes, Header)
+PerformHttpRequest('https://raw.githubusercontent.com/GrimDesignsFiveM/FiveMToDiscord/master/' .. GithubResourceName .. '/VERSION', function(Error, NewestVersion, Header)
+	PerformHttpRequest('https://raw.githubusercontent.com/GrimDesignsFiveM/FiveMToDiscord/master/' .. GithubResourceName .. '/CHANGES', function(Error, Changes, Header)
 		print('\n')
 		print('##############')
 		print('## ' .. GetCurrentResourceName())
