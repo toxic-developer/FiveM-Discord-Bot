@@ -19,4 +19,6 @@ And Much More See the screenshots below for examples.
 ![](https://i.imgur.com/eckem5w.png)
 
 ### Upcoming Changes (2020)
-> - [ ] Implement ESX Support
+> - [x] Implement ESX Support
+
+> - [ ] Fix Unresponsive Logs Bug With Latest CFX Version
