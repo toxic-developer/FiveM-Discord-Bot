@@ -19,11 +19,11 @@ And Much More See the screenshots below for examples.
 ![](https://i.imgur.com/eckem5w.png)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ### Upcoming Changes (2020)
-> - [x] - Implement ESX Support (Instructions Coming Soon) (Join Discord Or Create An Issue For Help)
+> - [x] Implement ESX Support (Instructions Coming Soon) (Join Discord Or Create An Issue For Help)
 
-> - [ ] - Fix Unresponsive Logs Bug With Latest CFX Version
+> - [ ] Fix Unresponsive Logs Bug With Latest CFX Version
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ### Installation Instructions
-> - [x]
+> - [x] Available On Our [Wiki/Docs](https://github.com/toxic-developer/FiveM-Discord-Bot/wiki/Home)
 
