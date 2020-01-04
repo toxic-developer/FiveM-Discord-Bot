@@ -25,5 +25,5 @@ And Much More See the screenshots below for examples.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ### Installation Instructions
-> Available? - [x]
+> Available? -[x]
 
