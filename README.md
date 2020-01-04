@@ -23,6 +23,12 @@ And Much More See the screenshots below for examples.
 
 > - [ ] Fix Unresponsive Logs Bug With Latest CFX Version
 
+> - [ ] Force Update To Version 1.5.2
+
+> - [x] Update Version Console Log
+
+> - [x] Fix Outdated/Unsupported Version Error (AGAIN)
+
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ### Installation Instructions
 > - [x] Available On Our [Wiki/Docs](https://github.com/toxic-developer/FiveM-Discord-Bot/wiki/Home)
