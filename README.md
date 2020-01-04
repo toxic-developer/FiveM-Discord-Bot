@@ -22,5 +22,8 @@ And Much More See the screenshots below for examples.
 > - [x] Implement ESX Support (Instructions Coming Soon) (Join Discord Or Create An Issue For Help)
 
 > - [ ] Fix Unresponsive Logs Bug With Latest CFX Version
+
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+### Installation Instructions
+> Available? - [x]
 
