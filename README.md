@@ -27,3 +27,6 @@ And Much More See the screenshots below for examples.
 ### Installation Instructions
 > - [x] Available On Our [Wiki/Docs](https://github.com/toxic-developer/FiveM-Discord-Bot/wiki/Home)
 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+### Additional Support/Contact
+> [Discord](https://discord.io/Toxic-Team)
