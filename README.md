@@ -43,4 +43,6 @@ And Much More See the screenshots below for examples.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ### Additional Support/Contact
+If you are experiencing issues please feel free to Contact by creating an issue or Joining my discord at the link below!
+
 > [Discord](https://discord.io/Toxic-Team)
