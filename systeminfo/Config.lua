@@ -1,3 +1,4 @@
+-- Discord Webhook Links (Replace these with your own Links) Need help setting it up? (https://support.discordapp.com/hc/en-us/articles/228383668-Intro-to-Webhooks)
 DiscordWebhookSystemInfos = 'YOUR_WEBHOOK_HERE'
 DiscordWebhookKillinglogs = 'YOUR_WEBHOOK_HERE'
 DiscordWebhookChat = 'YOUR_WEBHOOK_HERE'
