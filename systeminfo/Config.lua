@@ -4,9 +4,9 @@ DiscordWebhookChat = 'YOUR_WEBHOOK_HERE'
 
 SystemAvatar = 'https://wiki.fivem.net/w/images/d/db/FiveM-Wiki.png'
 
-UserAvatar = 'https://i.imgur.com/KIcqSYs.png'
+UserAvatar = 'https://i.imgur.com/KIcqSYs.png' -- Change this to a linn of your choice
 
-SystemName = 'NAORP Bot' //Change this to a name of your choice!
+SystemName = 'NAORP Bot' -- Change this to a name of your choice!
 
 
 --[[ Special Commands formatting
