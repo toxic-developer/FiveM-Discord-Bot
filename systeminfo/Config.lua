@@ -4,13 +4,14 @@ DiscordWebhookSystemInfos = 'YOUR_WEBHOOK_HERE'
 DiscordWebhookKillinglogs = 'YOUR_WEBHOOK_HERE'
 DiscordWebhookChat = 'YOUR_WEBHOOK_HERE'
 
+-- Bot/Client Avatar and UserName
 SystemAvatar = 'https://wiki.fivem.net/w/images/d/db/FiveM-Wiki.png'
 
 UserAvatar = 'https://i.imgur.com/KIcqSYs.png' -- Change this to a linn of your choice
 
 SystemName = 'NAORP Bot' -- Change this to a name of your choice!
 
-
+-- How To Format and Setup Special Commands
 --[[ Special Commands formatting
 		 *YOUR_TEXT*			--> Make Text Italics in Discord
 		**YOUR_TEXT**			--> Make Text Bold in Discord
@@ -21,10 +22,11 @@ SystemName = 'NAORP Bot' -- Change this to a name of your choice!
 	 __***YOUR_TEXT***__		--> Underline Text and make it Italics & Bold in Discord
 		~~YOUR_TEXT~~			--> Strikethrough Text in Discord
 ]]
+
 -- Use 'USERNAME_NEEDED_HERE' without the quotes if you need a Users Name in a special command
 -- Use 'USERID_NEEDED_HERE' without the quotes if you need a Users ID in a special command
 
-
+-- These Are Your Special Commands!!
 -- These special commands will be printed differently in discord, depending on what you set it to
 SpecialCommands = {
 				   {'/ooc', '**[OOC]:**'},
@@ -47,6 +49,7 @@ BlacklistedCommands = {
 					   '/unjail',
 					  }
 
+-- Own WebHooks/Seperate Channels
 -- These Commands will use their own webhook
 OwnWebhookCommands = {
 					  {'/911', 'YOUR_WEBHOOK_HERE'},
@@ -61,6 +64,7 @@ OwnWebhookCommands = {
 					  {'/repair', 'YOUR_WEBHOOK_HERE'},
 					 }
 
+-- Discord Text To Speech Friendly Commands
 -- These Commands will be sent as TTS messages
 TTSCommands = {
 			   '/Whatever',
