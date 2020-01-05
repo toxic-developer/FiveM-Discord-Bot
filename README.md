@@ -1,7 +1,7 @@
 ### FiveM To Discord Bot
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-FiveM-Discord Bot allows you have to have server notifications such as:
+FiveM-Discord Bot allows you to have server notifications such as:
 
 > Player Death Notifications
 
