@@ -1,6 +1,5 @@
 ### FiveM To Discord Bot
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Welcome to the FiveM-Discord Bot wiki!
 
 FiveM-Discord Bot allows you have to have server notifications such as:
 
