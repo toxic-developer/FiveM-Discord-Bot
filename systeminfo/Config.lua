@@ -1,12 +1,12 @@
-DiscordWebhookSystemInfos = 'https://discordapp.com/api/webhooks/531428117735014400/M7859FG1Alcq46UIl3BWDE59ANLlfuWWq33OPvWTbEOb9cQWb182PVIbawWLTYdhrbwi'
-DiscordWebhookKillinglogs = 'https://discordapp.com/api/webhooks/531428117735014400/M7859FG1Alcq46UIl3BWDE59ANLlfuWWq33OPvWTbEOb9cQWb182PVIbawWLTYdhrbwi'
-DiscordWebhookChat = 'https://discordapp.com/api/webhooks/531428117735014400/M7859FG1Alcq46UIl3BWDE59ANLlfuWWq33OPvWTbEOb9cQWb182PVIbawWLTYdhrbwi'
+DiscordWebhookSystemInfos = 'YOUR_WEBHOOK_HERE'
+DiscordWebhookKillinglogs = 'YOUR_WEBHOOK_HERE'
+DiscordWebhookChat = 'YOUR_WEBHOOK_HERE'
 
 SystemAvatar = 'https://wiki.fivem.net/w/images/d/db/FiveM-Wiki.png'
 
 UserAvatar = 'https://i.imgur.com/KIcqSYs.png'
 
-SystemName = 'NAORP SYSTEM'
+SystemName = 'NAORP Bot' //Change this to a name of your choice!
 
 
 --[[ Special Commands formatting
@@ -47,16 +47,16 @@ BlacklistedCommands = {
 
 -- These Commands will use their own webhook
 OwnWebhookCommands = {
-					  {'/911', 'https://discordapp.com/api/webhooks/531428117735014400/M7859FG1Alcq46UIl3BWDE59ANLlfuWWq33OPvWTbEOb9cQWb182PVIbawWLTYdhrbwi'},
-					  {'/dispatch', 'https://discordapp.com/api/webhooks/531428117735014400/M7859FG1Alcq46UIl3BWDE59ANLlfuWWq33OPvWTbEOb9cQWb182PVIbawWLTYdhrbwi'},
-					  {'/me', 'https://discordapp.com/api/webhooks/531428117735014400/M7859FG1Alcq46UIl3BWDE59ANLlfuWWq33OPvWTbEOb9cQWb182PVIbawWLTYdhrbwi'},
-					  {'/fix', 'https://discordapp.com/api/webhooks/531428117735014400/M7859FG1Alcq46UIl3BWDE59ANLlfuWWq33OPvWTbEOb9cQWb182PVIbawWLTYdhrbwi'},
-					  {'/dv', 'https://discordapp.com/api/webhooks/531428117735014400/M7859FG1Alcq46UIl3BWDE59ANLlfuWWq33OPvWTbEOb9cQWb182PVIbawWLTYdhrbwi'},
-					  {'/twt', 'https://discordapp.com/api/webhooks/531428117735014400/M7859FG1Alcq46UIl3BWDE59ANLlfuWWq33OPvWTbEOb9cQWb182PVIbawWLTYdhrbwi'},
-					  {'/do', 'https://discordapp.com/api/webhooks/531428117735014400/M7859FG1Alcq46UIl3BWDE59ANLlfuWWq33OPvWTbEOb9cQWb182PVIbawWLTYdhrbwi'},
-					  {'/news', 'https://discordapp.com/api/webhooks/531428117735014400/M7859FG1Alcq46UIl3BWDE59ANLlfuWWq33OPvWTbEOb9cQWb182PVIbawWLTYdhrbwi'},
-					  {'/ad', 'https://discordapp.com/api/webhooks/531428117735014400/M7859FG1Alcq46UIl3BWDE59ANLlfuWWq33OPvWTbEOb9cQWb182PVIbawWLTYdhrbwi'},
-					  {'/repair', 'https://discordapp.com/api/webhooks/531428117735014400/M7859FG1Alcq46UIl3BWDE59ANLlfuWWq33OPvWTbEOb9cQWb182PVIbawWLTYdhrbwi'},
+					  {'/911', 'YOUR_WEBHOOK_HERE'},
+					  {'/dispatch', 'YOUR_WEBHOOK_HERE'},
+					  {'/me', 'YOUR_WEBHOOK_HERE'},
+					  {'/fix', 'YOUR_WEBHOOK_HERE'},
+					  {'/dv', 'YOUR_WEBHOOK_HERE'},
+					  {'/twt', 'YOUR_WEBHOOK_HERE'},
+					  {'/do', 'YOUR_WEBHOOK_HERE'},
+					  {'/news', 'YOUR_WEBHOOK_HERE'},
+					  {'/ad', 'YOUR_WEBHOOK_HERE'},
+					  {'/repair', 'YOUR_WEBHOOK_HERE'},
 					 }
 
 -- These Commands will be sent as TTS messages
