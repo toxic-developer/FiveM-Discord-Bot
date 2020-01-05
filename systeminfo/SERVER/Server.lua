@@ -260,6 +260,7 @@ function GetIDFromSource(Type, ID) --(Thanks To WolfKnight [forum.FiveM.net])
 end
 
 -- Version Checking down here, better don't touch this
+-- Will throw an error if your version is outdated
 local CurrentVersion = '1.5.1'
 local GithubResourceName = 'FiveMToDiscord'
 
