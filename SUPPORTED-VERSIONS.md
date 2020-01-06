@@ -1,7 +1,7 @@
 ### Supported Versions
 
-Below is a list of Versions that we currently support
-We will not provide support for anything marked with a ":x:"
+Below is a list of Versions that we currently support.
+I will not provide support for anything marked with a ":x:"
 
 | Version | Supported          |
 | ------- | ------------------ |
