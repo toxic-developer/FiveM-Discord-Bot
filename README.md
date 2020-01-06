@@ -45,3 +45,5 @@ And Much More See the screenshots below for examples.
 If you are experiencing issues please feel free to Contact me by creating an issue or Joining my discord at the link below!
 
 > [Discord](https://discord.io/Toxic-Team)
+
+> Make sure you check the "SUPPORTED-VERSIONS.md file to see a list of Versions we offer support for
